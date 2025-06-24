@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.1/font/bootstrap-icons.css">
+    <link rel="stylesheet" href="./CSS/cadastrar_produto.css">
+    <link rel="stylesheet" href="./CSS/padrao.css">
+
+    <title>Cadastro de produtos</title>
+</head>
+<body>
+    <header class="cabecalho">
+        <nav class="menu">
+            <ul class="ul-menu">
+                <a href="home.html">
+                    <li id="logo"><img src="./src/assets/Bella.png" />
+                    </li>
+                </a>
+                
+                <!--
+                     <li>
+                        <section>
+                            <input class="pesquisar" type="text" placeholder="O que você procura?">
+                            <i class="bi bi-search"></i>
+
+                        </section>
+                    </li>
+
+                 -->  
+            
+                <a href="login.html">
+                    <li><i class="bi bi-person-fill"></i></li>
+                </a>
+                <a href="carrinho.html">
+                    <li><i class="bi bi-handbag-fill"></i></li>
+                </a>
+                <li id="menu-icon"><i class="bi bi-list"></i></li>
+                    <nav id="mobileMenu" class="mobile-menu">
+                        <ul>
+                            <li><a href="home.html">Home</a></li>
+                            <li><a href="produtos.html">Produtos</a></li>
+                            <li><a href="login.html">Login</a></li>
+                            <li><a href="carrinho.html">Carrinho</a></li>
+                        </ul>
+                    </nav>
+
+                    </ul>
+
+        </nav>
+    </header>
+
+    <section class="cadastro-produtos">
+        <div class="inicio"><h1>CADASTRAR PRODUTO</h1></div>
+        <form action="" name="cadastrarproduto" action="" method="post" onsubmit="return submissaoproduto()">
+            <div>
+                <div class="info-produto"><label class="label1" for="">NOME DO PRODUTO</label>
+                <input id="meuInput" class="p1" type="text"></div>
+
+                <div class="info-produto"><label class="label1" for="">DESCRIÇÃO DO PRODUTO</label>
+                <input id="meuInput" class="p1" type="text"></div>
+
+                <div class="info-produto"><label class="label1" for="">CATEGORIA</label>
+                <input id="meuInput" class="p1" type="text"></div>
+
+                <div class="info-produto"><label class="label1" for="">PREÇO UNITÁRIO</label>
+                <input id="meuInput" class="p1" type="text"></div>
+
+                <div class="info-produto"><label class="label1" for="">CÓDIGO DE BARRAS</label>
+                <input id="meuInput" class="p1" type="text"></div>
+                
+                <div id="b1-local"><button class="b1">CADASTRAR</button></div>
+            </div>  
+    
+        </form>
+    </section>
+
+    <footer id="footer" class="footer">
+        <ul class="footer-card">
+
+            <a href="home.html">
+                <li class="footer-item">
+                 <i class="bi bi-house-door-fill"></i>
+                </li>
+            </a>
+            <a href="login.html">
+                <li class="footer-item">
+                    <i class="bi bi-person-fill"></i>
+                </li>
+            </a>
+
+            <a href="carrinho.html">
+                <li class="footer-item">
+                    <i class="bi bi-handbag-fill"></i>
+                </li>
+            </a>
+
+            <a href="produtos.html">
+                <li class="footer-item">
+                    <i class="bi bi-box-seam-fill"></i>
+                </li>
+            </a>    
+        </ul>
+    
+    </footer>
+    <script src="script.js"></script>
+    <script src="./js/nav-menu.js"></script>
+</body>
+</html>
+

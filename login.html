@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.1/font/bootstrap-icons.css">
+    <link rel="stylesheet" href="./CSS/login.css">
+    <link rel="stylesheet" href="./CSS/padrao.css">
+
+    <title>Login</title>
+</head>
+<body>
+    <header class="cabecalho">
+        <nav class="menu">
+            <ul class="ul-menu">
+                <a href="home.html">
+                    <li id="logo"><img src="./src/assets/Bella.png" />
+                    </li>
+                </a>
+                
+                <!--
+                     <li>
+                        <section>
+                            <input class="pesquisar" type="text" placeholder="O que você procura?">
+                            <i class="bi bi-search"></i>
+
+                        </section>
+                    </li>
+
+                 -->  
+                <a href="login.html">
+                    <li><i class="bi bi-person-fill"></i></li>
+                </a>
+                <a href="carrinho.html">
+                    <li><i class="bi bi-handbag-fill"></i></li>
+                </a>
+                <li id="menu-icon"><i class="bi bi-list"></i></li>
+                    <nav id="mobileMenu" class="mobile-menu">
+                        <ul>
+                            <li><a href="home.html">Home</a></li>
+                            <li><a href="produtos.html">Produtos</a></li>
+                            <li><a href="login.html">Login</a></li>
+                            <li><a href="carrinho.html">Carrinho</a></li>
+                        </ul>
+                    </nav>
+
+                    </ul>
+
+        </nav>
+    </header>
+    <section class="entrar">
+        <div class="inicio"><h1 class="nome">Bella Semijóias</h1></div>
+        <div class="inicio"><img class="usuario" src="./src/assets/user.png" alt="user"></div>
+
+        <div>
+           
+            <div class="login"><input  id="meuInput" class="login1" type="text" placeholder="Digite seu login"></div>
+            <div class="login"><input id="meuInput" class="login1" type="password" placeholder="Digite sua senha"></div>
+            <div class="login"><button id="addbotao" class="botao">REALIZAR LOGIN</button></div>
+        </div>
+        <div>
+            <a id="cadastre" href="cadastrar_usuario.html">Cadastre-se</a>
+        </div>
+    </section>
+
+    <footer id="footer" class="footer">
+        <ul class="footer-card">
+
+            <a href="home.html">
+                <li class="footer-item">
+                 <i class="bi bi-house-door-fill"></i>
+                </li>
+            </a>
+            <a href="login.html">
+                <li class="footer-item">
+                    <i class="bi bi-person-fill"></i>
+                </li>
+            </a>
+
+            <a href="carrinho.html">
+                <li class="footer-item">
+                    <i class="bi bi-handbag-fill"></i>
+                </li>
+            </a>
+
+            <a href="produtos.html">
+                <li class="footer-item">
+                    <i class="bi bi-box-seam-fill"></i>
+                </li>
+            </a>    
+        </ul>
+    
+    </footer>
+    <script src="./js/script.js"></script>
+    <script src="./js/nav-menu.js"></script>
+</body>
+</html>

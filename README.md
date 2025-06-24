@@ -6,11 +6,11 @@ Plataforma de e-commerce em desenvolvimento focada na venda de semijoias para o 
 
 <div align="center">
   <h3> Desktop </h3>
-    <img src="src/assets/Home desktop.jpg" width="412px"/> 
+    <img src="src/assets/Home desktop.jpg" width="380px"/> 
  
 
   <h3> Mobile </h3>
-    <img src="src/assets/Home mobile.jpg" width="250px"/>
+    <img src="src/assets/Home mobile.jpg" width="220px"/>
  
 </div>
 

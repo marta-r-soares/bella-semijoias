@@ -1,0 +1,154 @@
+/* Estilização do corpo do login*/
+    .inicio{
+        display: flex;
+        justify-content: center;
+    }
+
+    .entrar{
+        width: 30%;
+        box-shadow: 0 5px 10px #8B2B00;
+        border-radius: 20px;
+        margin: auto;
+        margin-top: 40px;
+        margin-bottom: 40px;
+        padding-top: 20px;
+        padding-bottom: 20px;
+        
+    }
+
+    .nome{
+        font-size: 60px;
+        color: #8B2B00;
+        font-family: 'Italianno';
+        text-align: center;
+
+    }
+    .usuario{
+        width: 20%;
+        justify-content: center;
+        padding-bottom: 20px;
+    }
+
+    .login{
+        display: flex;
+        width: 100%;
+        justify-content: center;
+    }
+    .login1{
+        color: #8B2B00;
+        font-size: 18px;
+        text-align: center;
+        align-items: center;
+        border-radius: 05px;
+        padding: 5px 50px 5px 50px;
+        margin-bottom: 20px;
+        background-color: #FFC4B9;
+        border-color: #FFC4B9;
+    }
+
+    .botao{
+        color: #ffffff;
+        font-size: 20px;
+        font-weight: 600;
+        background-color: #F8AB9D;
+        text-align: center;
+        align-items: center;
+        border-radius: 30px;
+        padding: 5px 83px 5px 83px;
+        border-color: #F8AB9D;
+    }
+
+    a#cadastre{
+       text-decoration: none;
+       font-size: 15px;
+       font-weight: 600;
+       color: #8B2B00;
+       margin-left: 270px;
+       transition: .2s;
+      
+    }
+    a#cadastre:hover{
+     color: #f87d68;
+     
+    }
+
+
+
+  /* estilizar a responsividade para smartphones*/
+  @media screen and (max-width: 480px) {
+    
+    .inicio{
+        display: flex;
+        justify-content: center;
+    }
+
+    .entrar{
+        width: 80%;
+        box-shadow: 0 5px 10px #8B2B00;
+        border-radius: 20px;
+        margin: auto;
+        margin-top: 40px;
+        margin-bottom: 40px;
+        padding-top: 20px;
+        padding-bottom: 20px;
+        
+    }
+
+    .nome{
+        font-size: 30px;
+        color: #8B2B00;
+        font-family: 'Italianno';
+        text-align: center;
+
+    }
+    .usuario{
+        width: 50%;
+        justify-content: center;
+        padding-bottom: 20px;
+    }
+
+    .login{
+        display: flex;
+        width: 100%;
+        justify-content: center;
+    }
+    .login1{
+        color: #8B2B00;
+        font-size: 18px;
+        text-align: center;
+        align-items: center;
+        border-radius: 05px;
+        padding: 5px ;
+        margin-bottom: 20px;
+        background-color: #FFC4B9;
+        border-color: #FFC4B9;
+    }
+
+    .botao{
+        color: #ffffff;
+        font-size: 12px;
+        font-weight: 600;
+        background-color: #F8AB9D;
+        text-align: center;
+        align-items: center;
+        border-radius: 20px;
+        padding: 5px 70px 5px 70px;
+        border-color: #F8AB9D;
+    }
+
+    a#cadastre{
+      text-decoration: none;
+      font-size: 15px;
+      font-weight: 600;
+      color: #8B2B00;
+      margin-left: 120px;
+      transition: .2s;
+    }
+
+    a#cadastre:hover{
+      color: #f87d68;
+      
+     }
+
+
+  }

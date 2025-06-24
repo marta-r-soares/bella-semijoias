@@ -1,0 +1,367 @@
+/* estilização do carrinho */
+.carrinho{
+    display: flex;
+    justify-content: space-between;
+    margin: 20px;
+}
+
+.carrinho a{
+    text-decoration: none;
+    color: #8B2B00;
+}
+
+i.bi-arrow-left{
+    font-size: 38px;
+    padding-left: 100px;    
+}
+
+#nome-empresa{
+    font-size: 40px;
+    color: var(--cor-empresa);
+    text-shadow: 2px 2px black;
+    text-align: center;
+    padding: 100px;
+}
+
+i.bi-bag-x-fill{
+    font-size: 38px;
+    padding-right: 100px; 
+    color: red;
+}
+
+
+.produtos-carrinho{
+    display: flex;
+    margin: auto;
+    background-color: var(--background-clear);
+    width: 60%;
+    justify-content: space-around;
+    align-content: center;
+    border-radius: 8px;
+    box-shadow: 10px 5px 5px #F8AB9D;
+    padding: 10px;
+    margin-bottom: 40px;
+}
+#imagem-produto {
+    width: 100%;
+    justify-content: center;
+   
+  }
+  
+
+  .quantidade-produto {
+    display: flex;
+    justify-content: center;
+    padding: 20px;
+  }
+  
+  i.bi-dash-square {
+    padding: 10px;
+    font-size: 30px;
+  }
+  
+  .numero-produto {
+    padding: 10px;
+    font-size: 30px;
+  }
+  
+  i.bi-plus-square {
+    padding: 10px;
+    font-size: 30px;
+  }
+  
+  .precos-produto {
+    display: flex;
+    padding: 10px;
+  
+  }
+  
+  .precos {
+    font-size: 25px;
+    font-weight: 700;
+    padding: 10px;
+    color: #000;
+  }
+  
+  .precos-valores {
+    font-size: 25px;
+  }
+  
+ 
+  .botao-carrinho {
+    display: flex;
+    margin: auto;
+    padding: 10px;
+  }
+  
+  i.bi-cart-plus {
+    font-size: 50px;
+    color: black;
+    position: absolute;
+    padding: 0.9rem 0.3rem;
+    margin-left: 3rem;
+  }
+  
+  .botao-add-carrinho {
+    color: #ffffff;
+    font-size: 20px;
+    font-weight: 600;
+    background: linear-gradient(to bottom, #ffb8b8 5%, #f04a4a 100%);
+    background-color: #F8AB9D;
+    margin: auto;
+    text-align: center;
+    align-items: center;
+    border-radius: 30px;
+    padding: 5px 100px 5px 100px;
+    border-color: #F8AB9D;
+  }
+
+  .botao-add-carrinho:hover {
+    background: linear-gradient(to bottom, #f04a4a 5%, #ffb8b8 100%);
+
+  }
+  .botao-add-carrinho:active {
+    position: relative;
+    top: 1px;
+  }
+
+.img-carrinho, .nome-quantidade, .lixo-valor{
+    width: 40%;
+}
+
+#imagem-produto-carrinho{
+    width: 40%;
+    margin: 40px;
+}
+
+.nome-quantidade{
+    justify-content: center;
+    display: baseline;
+}
+
+#nome-produto{
+    font-size: 15px;
+    font-weight: 800;
+    padding: 10px;
+    margin: 1.3rem;
+    text-align: center;
+    color: black;  
+    text-shadow: 1px 1px var(--cor-empresa);
+}
+
+.quantidade{
+    display: flex;
+    justify-content: center;
+}
+
+i.bi-trash{
+    font-size: 50px;
+    padding-top: 40px;
+    color: red;
+}
+
+.lixo-valor{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+
+.valor-unitario{
+    font-size: 20px;
+    padding-top: 15px;
+}
+
+.cupom{
+    display: flex;
+    justify-content: center;
+}
+
+.input-cupom {
+    margin:15px ;
+    font-size: 25px;
+    width: 50%;
+    padding:  20px 0 20px 0;
+    background-color: #ffb8b8;
+    text-align: center;
+    border-radius: 9px;
+    border: none;
+    margin-right: -2px;
+  }
+  
+  
+  ::-webkit-.input-cupom-placeholder {
+    color: #8B2B00;
+    padding: 10px;
+    text-align: center;
+  }
+  
+  .input-cupom[type="text"]:focus {
+   
+    background-color: #ffb8b8;
+  }
+
+
+.botao-aplicar{
+    box-shadow: inset 0px 1px 0px 0px #fce2c1;
+    background: linear-gradient(to bottom, #ffb8b8 5%, #f04a4a 100%);
+    border-radius: 6px;
+    border: 1px solid #f81010;
+    display: inline-block;
+    cursor: pointer;
+    color: #fff;
+    font-size: 15px;
+    font-weight: bold;
+    padding: 12px 0 12px 0;
+    text-decoration: none;
+    margin-top:15px;
+    margin-bottom: 15px;
+    width: 12%;
+}
+
+.botao-aplicar:hover {
+    background: linear-gradient(to bottom, #f04a4a 5%, #ffb8b8 100%);
+  
+  }
+
+.botao-aplicar:active {
+    position: relative;
+    top: 1px;
+  }
+
+.pagamento{
+    display: flex;
+    flex-direction: column; 
+    align-items: center;   
+}
+
+.botao-carrinho{
+   width: 90%;
+   padding: 1.5rem;
+   display: flex;
+}
+
+.botao-add-carrinho{
+    margin: auto;
+}
+
+.botao-add-carrinho{
+  box-shadow:inset 0px 1px 0px 0px #fce2c1;
+  background: linear-gradient(to bottom, #ffb8b8 5%, #f04a4a 100%);
+	border-radius:30px;
+	border:1px solid #f81010;
+	display:inline-block;
+	cursor:pointer;
+	color:#ffffff;
+	font-size:20px;
+	font-weight:bold;
+	padding: 10px 40px 10px 40px;
+	text-decoration:none;
+}
+.botao-a.botao-add-carrinho {
+  background: linear-gradient(to bottom, #f04a4a 5%, #ffb8b8 100%);
+}
+.botao-add-carrinho:active {
+	position:relative;
+	top:1px;
+}
+ /* estilizar a responsividade para smartphones*/
+ @media screen and (max-width: 480px) {
+
+  i.bi-arrow-left{
+    font-size: 38px;
+    padding-left: 20px;    
+}
+
+  #nome-empresa{
+      font-size: 40px;
+      color: var(--cor-empresa);
+      text-shadow: 2px 2px black;
+      text-align: center;
+      padding: 20px;
+  }
+
+  i.bi-bag-x-fill{
+      font-size: 38px;
+      padding-right: 20px; 
+      color: red;
+  }
+  .produtos-carrinho{
+    display: flex;
+    width: 80%;
+
+  }
+  .quantidade-produto {
+    display: flex;
+    justify-content: center;
+    padding: 10px;
+  }
+  
+  i.bi-dash-square {
+    padding: 5px;
+    font-size: 20px;
+  }
+  
+  .numero-produto {
+    padding: 5px;
+    font-size: 20px;
+  }
+  
+  i.bi-plus-square {
+    padding: 5px;
+    font-size: 20px;
+  }
+
+  .precos {
+    font-size: 15px;
+    font-weight: 700;
+    padding: 10px;
+    color: #000;
+  }
+  
+  .precos-valores {
+    font-size: 15px;
+  }
+   
+  .botao-carrinho {
+    display: flex;
+    margin: auto;
+    padding: 10px;
+  }
+
+  #nome-produto{
+    font-size: 12px;
+    font-weight: 700;
+    padding: 10px 0 10px 0;
+    
+    text-align: center;
+    color: #000;  
+   }
+
+   i.bi-trash{
+    font-size: 30px;
+ 
+  }
+
+  .valor-unitario{
+      font-size: 13px;
+    
+  }
+
+  .input-cupom {
+    
+    font-size: 14px;
+    width: 50%;
+    padding:  5px 0 5px 0;
+    margin-right: -5px;
+
+  }
+
+  .botao-aplicar{
+    font-size: 12px;
+    padding: 20px 0 20px 0;
+    margin-top:15px;
+    margin-bottom: 15px;
+    width: 25%;
+}
+
+ }

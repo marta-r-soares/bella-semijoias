@@ -1,0 +1,81 @@
+
+   /* nav {
+      background-color: #8B2B00;
+      color: white;
+      padding: 10px 20px;
+      position: fixed;
+      width: 100%;
+      top: 0;
+      left: 0;
+      z-index: 1000;
+    }
+
+    nav .menu {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+    }
+
+    nav ul {
+      list-style: none;
+      display: flex;
+      gap: 15px;
+      margin: 0;
+      padding: 0;
+    }
+
+    nav ul li a {
+      color: white;
+      text-decoration: none;
+      font-weight: bold;
+    }
+    */
+
+    /* Ícone hamburguer */
+    /*
+    .menu-toggle {
+      display: none;
+      flex-direction: column;
+      cursor: pointer;
+    }
+
+    .menu-toggle span {
+      height: 3px;
+      width: 25px;
+      background: white;
+      margin: 4px 0;
+    }
+    */
+
+    /* Menu mobile */
+
+    /*
+    @media (max-width: 768px) {
+      nav ul {
+        display: none;
+        flex-direction: column;
+        background-color: #8B2B00;
+        position: absolute;
+        top: 50px;
+        left: 0;
+        width: 100%;
+      }
+
+      nav ul.show {
+        display: flex;
+      }
+
+      .menu-toggle {
+        display: flex;
+      }
+    }
+
+    section {
+      height: 100vh;
+      padding: 60px 20px;
+    }
+
+    section:nth-child(even) {
+      background-color: #f4f4f4;
+    }
+*/

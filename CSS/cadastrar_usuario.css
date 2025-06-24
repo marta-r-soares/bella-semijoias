@@ -1,0 +1,124 @@
+/* Estilização do corpo do cadastro de produtos*/
+    .iniciar{
+        display: flex;
+        justify-content: center;
+        margin: 20px;
+    }
+
+   .cadastro-usuario{
+        width: 50%;
+        box-shadow: 0 5px 10px #F8AB9D;
+        border-radius: 20px;
+        margin: auto;
+        margin-top: 40px;
+        margin-bottom: 40px;
+        padding-top: 20px;
+        padding-bottom: 20px;
+    }
+
+    .info-usuario{
+        display: flex;
+        width: 100%;
+        align-items: center;
+        justify-self: center;
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+         
+    .usuario{
+        width: 50%;
+        color: #8B2B00;
+        font-size: 18px;
+        align-items: center;
+        border-radius: 05px;
+        margin-top: 10px;
+        background-color: #FFC4B9;
+        border-color: #FFC4B9;
+    }
+
+    .usuario2{
+        display: flex;
+        width: 3%;
+    }
+    
+    input[type=radio]{
+        display: flex;
+        margin-right: 5px;
+        margin-left: 5px;
+    }
+  
+    .label2{
+        width: 40%;
+        font-size: 16px;
+        align-items: center;
+        padding-left: 10px;
+        margin-top: 10px; 
+    }
+
+    div#local{
+        display: flex;
+        width: 100%;
+        justify-content: center;
+        margin-top: 20px;
+    }
+
+    button{
+        color: #ffffff;
+        font-size: 20px;
+        font-weight: 600;
+        background-color: #F8AB9D;
+        margin: auto;
+        text-align: center;
+        align-items: center;
+        border-radius: 30px;
+        padding: 5px 100px 5px 100px;
+        border-color: #F8AB9D;
+    }
+
+  /* estilizar a responsividade para smartphones*/
+    @media screen and (max-width: 480px) {
+   
+    .cadastro-usuario{
+        width: 85%;
+        box-shadow: 0 5px 10px #F8AB9D;
+        border-radius: 20px;
+        margin: auto;
+        margin-top: 40px;
+        margin-bottom: 40px;
+        padding-top: 20px;
+        padding-bottom: 20px;
+        
+    }
+
+    .iniciar{
+        display: flex;
+        justify-content: center;
+        font-size: 12px;
+    }
+    .info-usuario{
+         display: flex;
+         width: 90%; 
+    }  
+
+    .label2{
+        width: 40%;
+        font-size: 12px;
+        align-items: center;
+        padding-left: 10px;
+        margin-top: 10px;       
+    }
+
+    button{
+        color: #ffffff;
+        font-size: 12px;
+        font-weight: 600;
+        background-color: #F8AB9D;
+        margin: auto;
+        text-align: center;
+        align-items: center;
+        border-radius: 30px;
+        padding: 10px 100px 10px 100px;
+        border-color: #F8AB9D;
+    }
+
+  }

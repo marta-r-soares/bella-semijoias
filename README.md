@@ -5,12 +5,12 @@ Plataforma de e-commerce em desenvolvimento focada na venda de semijoias para o 
 # Visualização da pagina home:
 
 <div align="center">
-  <a href="">
+  <h3> Desktop </h3>
     <img src="src/assets/Home desktop.jpg" width="412px"/> 
-  </a>
+ 
 
-  <a href="">
+  <h3> Mobile </h3>
     <img src="src/assets/Home mobile.jpg" width="250px"/>
-  </a>
+ 
 </div>
 
